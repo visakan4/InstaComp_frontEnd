@@ -1,0 +1,212 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Web-Dev-Project-DAL</Name>
+    <ProjectGuid>{91ed31e3-7b17-4ea5-8cf3-e470db6b8720}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <RuntimeVersion>7.1</RuntimeVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="assets\assignment-folders\Gayathri_a2\a2\includes\Searchresult.php" />
+    <Compile Include="assets\assignment-folders\Gayathri_a2\a2\includes\UC.php" />
+    <Compile Include="assets\assignment-folders\Gayathri_a2\a2\index.php" />
+    <Compile Include="assets\assignment-folders\navjot\a2\includes\destroySession.php" />
+    <Compile Include="assets\assignment-folders\navjot\a2\index.php" />
+    <Compile Include="assets\assignment-folders\navjot\a2\login_1.php" />
+    <Compile Include="assets\assignment-folders\navjot\a2\registration.php" />
+    <Compile Include="assets\assignment-folders\navjot\a2\resetPassword.php" />
+    <Compile Include="assets\assignment-folders\navjot\a2\sendEmail.php" />
+    <Compile Include="assets\Configuration.php" />
+    <Compile Include="assets\controller\addToCartController.php" />
+    <Compile Include="assets\controller\AddAddressController.php" />
+    <Compile Include="assets\controller\AddCardController.php" />
+    <Compile Include="assets\controller\DeleteAddressController.php" />
+    <Compile Include="assets\controller\DeleteCardController.php" />
+    <Compile Include="assets\controller\DeleteCartController.php" />
+    <Compile Include="assets\controller\GetAllOrders.php" />
+    <Compile Include="assets\controller\GetCartController.php" />
+    <Compile Include="assets\controller\OrderController.php" />
+    <Compile Include="assets\controller\PlaceOrder.php" />
+    <Compile Include="assets\controller\ViewParticularOrderController.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="orderDetails.php" />
+    <Compile Include="searchResult.php" />
+    <Compile Include="login.php" />
+    <Compile Include="myorders.php" />
+    <Compile Include="cart.php" />
+    <Compile Include="placeorder.php" />
+    <Compile Include="index.php" />
+    <Compile Include="register.php" />
+    <Compile Include="registration.php" />
+    <Compile Include="resetPassword.php" />
+    <Compile Include="sendEmail.php" />
+    <Compile Include="template\HTTPRequest.php" />
+    <Compile Include="template\users.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\assignment-folders\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\CSS\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\fonts\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\images\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\includes\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\JSON\" />
+    <Folder Include="assets\assignment-folders\Gayathri_a2\a2\js\" />
+    <Folder Include="assets\assignment-folders\navjot\" />
+    <Folder Include="assets\assignment-folders\navjot\a2\" />
+    <Folder Include="assets\assignment-folders\navjot\a2\.idea\" />
+    <Folder Include="assets\assignment-folders\navjot\a2\css\" />
+    <Folder Include="assets\assignment-folders\navjot\a2\images\" />
+    <Folder Include="assets\assignment-folders\navjot\a2\includes\" />
+    <Folder Include="assets\assignment-folders\navjot\a2\js\" />
+    <Folder Include="assets\assignment-folders\visakan\" />
+    <Folder Include="assets\assignment-folders\visakan\css\" />
+    <Folder Include="assets\assignment-folders\visakan\html\" />
+    <Folder Include="assets\assignment-folders\visakan\img\" />
+    <Folder Include="assets\assignment-folders\visakan\js\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\images\stores\" />
+    <Folder Include="assets\images\products\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="assets\images\" />
+    <Folder Include="assets\controller\" />
+    <Folder Include="assets\wireframes\" />
+    <Folder Include="template\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\assignment-folders\Gayathri_a2.zip" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\animate.min.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\autocomplete.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\bootstrap-dropdownhover.min.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\bootstrap-slider.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\bootstrap.min.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\glyphicons.less" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\jquery-ui.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\landing-page.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\CSS\master.css" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\bestbuy.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\bg.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\cart.png" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\checkout.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\Emptycart.png" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\garam_masala.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\home1.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\home1.png" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\home2.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\home_1.png" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\HT.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\LG _32inch.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\onion.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\potato.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\samsung_32inch.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\samsung_50inch.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\samsun_40inch.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\sobeys.jpeg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\turmeric.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\images\walmart.jpg" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\JSON\instacomplist.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\JSON\shopping.json.txt" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\bootstrap-dropdownhover.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\bootstrap-slider.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\bootstrap.min.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\bootstrap3.3.7.min.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\bundle.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\geolocation.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\index.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\jquery-ui.min.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\jquery.min.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\jquery3.3.1.min.js" />
+    <Content Include="assets\assignment-folders\Gayathri_a2\a2\js\search.js" />
+    <Content Include="assets\assignment-folders\navjot\a2\.idea\a2.iml" />
+    <Content Include="assets\assignment-folders\navjot\a2\.idea\misc.xml" />
+    <Content Include="assets\assignment-folders\navjot\a2\.idea\modules.xml" />
+    <Content Include="assets\assignment-folders\navjot\a2\.idea\workspace.xml" />
+    <Content Include="assets\assignment-folders\navjot\a2\css\footer.css" />
+    <Content Include="assets\assignment-folders\navjot\a2\css\home.css" />
+    <Content Include="assets\assignment-folders\navjot\a2\css\navigationMenu.css" />
+    <Content Include="assets\assignment-folders\navjot\a2\css\normalize.css" />
+    <Content Include="assets\assignment-folders\navjot\a2\css\registration.css" />
+    <Content Include="assets\assignment-folders\navjot\a2\images\logo.png" />
+    <Content Include="assets\assignment-folders\navjot\a2\includes\footer.html" />
+    <Content Include="assets\assignment-folders\navjot\a2\includes\navigationMenu.html" />
+    <Content Include="assets\assignment-folders\navjot\a2\js\frontEndAPIs.js" />
+    <Content Include="assets\assignment-folders\visakan\css\checkout.css" />
+    <Content Include="assets\assignment-folders\visakan\css\index.css" />
+    <Content Include="assets\assignment-folders\visakan\html\checkout.html" />
+    <Content Include="assets\assignment-folders\visakan\img\belts.png" />
+    <Content Include="assets\assignment-folders\visakan\img\clock.png" />
+    <Content Include="assets\assignment-folders\visakan\img\logo-2.PNG" />
+    <Content Include="assets\assignment-folders\visakan\img\logo.PNG" />
+    <Content Include="assets\assignment-folders\visakan\img\master-slide-04.jpg" />
+    <Content Include="assets\assignment-folders\visakan\img\onions.jpg" />
+    <Content Include="assets\assignment-folders\visakan\img\phone.jpg" />
+    <Content Include="assets\assignment-folders\visakan\img\room.png" />
+    <Content Include="assets\assignment-folders\visakan\img\shoes.png" />
+    <Content Include="assets\assignment-folders\visakan\img\sports.png" />
+    <Content Include="assets\assignment-folders\visakan\img\vegetables.png" />
+    <Content Include="assets\assignment-folders\visakan\img\walmart.jpg" />
+    <Content Include="assets\assignment-folders\visakan\img\watchcarousel.png" />
+    <Content Include="assets\assignment-folders\visakan\index.html" />
+    <Content Include="assets\assignment-folders\visakan\js\checkout.js" />
+    <Content Include="assets\assignment-folders\visakan\js\index.js" />
+    <Content Include="assets\css\instaComp.css" />
+    <Content Include="assets\css\registration.css" />
+    <Content Include="assets\css\reset.css" />
+    <Content Include="assets\images\products\9.png" />
+    <Content Include="assets\images\products\1.png" />
+    <Content Include="assets\images\products\2.png" />
+    <Content Include="assets\images\stores\1.png" />
+    <Content Include="assets\images\stores\3.png" />
+    <Content Include="assets\js\Cart.js" />
+    <Content Include="assets\js\geoLocation.js" />
+    <Content Include="assets\js\index.js" />
+    <Content Include="assets\js\myorders.js" />
+    <Content Include="assets\js\particularOrder.js" />
+    <Content Include="assets\js\PlaceOrder.js" />
+    <Content Include="assets\js\register.js" />
+    <Content Include="assets\js\Search.js" />
+    <Content Include="Readme.md" />
+    <Content Include="template\footer.php" />
+    <Content Include="template\header.php" />
+    <Content Include="assets\images\addToCart.png" />
+    <Content Include="assets\images\stores\5.png" />
+    <Content Include="assets\images\calcotOnions.png" />
+    <Content Include="assets\images\deleteImage.png" />
+    <Content Include="assets\images\fruits.png" />
+    <Content Include="assets\images\homePageBackgroundImg.png" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\logoUpdate1.png" />
+    <Content Include="assets\images\menu.png" />
+    <Content Include="assets\images\potatoOnions.png" />
+    <Content Include="assets\images\Profile.png" />
+    <Content Include="assets\images\rightArrow.png" />
+    <Content Include="assets\images\search.png" />
+    <Content Include="assets\images\shoppingBag-2.png" />
+    <Content Include="assets\images\shoppingBag.png" />
+    <Content Include="assets\images\shoppingBagWhite.png" />
+    <Content Include="assets\images\stores\2.png" />
+    <Content Include="assets\images\upArrow.png" />
+    <Content Include="assets\images\visa.png" />
+    <Content Include="assets\images\stores\4.png" />
+    <Content Include="assets\js\init.js" />
+    <Content Include="assets\wireframes\firstDraft.xd" />
+    <Content Include="assets\wireframes\Instructions to open xd file.txt" />
+  </ItemGroup>
+</Project>

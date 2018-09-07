@@ -1,0 +1,4 @@
+﻿Instructions to open the XD file
+
+Step 1 : Download Adobe XD (it's free) : https://www.adobe.com/ca/products/xd.html
+Step 2 : After downloading open the file

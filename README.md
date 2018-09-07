@@ -1,1 +1,2 @@
-# InstaComp_frontEnd
+# Web-Dev-Project
+Web development project

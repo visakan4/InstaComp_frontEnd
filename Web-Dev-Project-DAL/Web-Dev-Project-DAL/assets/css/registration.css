@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif !important;
+    ;
+}
+
+input { /* to set css style for input type elements; source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    width: 100%;
+    border-top: 0px solid darkblue;
+    border-left: 0px solid darkblue;
+    border-right: 0px solid darkblue;
+    border-bottom: 0.0625em solid darkblue;
+    resize: vertical;
+    border-radius: 0.250em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.registerTitle {
+    font-size: 2em;
+    color: darkblue;
+    margin: 1em auto;
+}
+
+
+.bottom {
+    margin-top: 0em;
+}
+
+.containerRegistration { /* setting css style, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    padding: 15px;
+    background-color: aliceblue;
+    /*margin-left: 2em;*/
+    /*margin-right: 2em;*/
+    /*margin-bottom: 5em;*/
+    border-radius: .32em;
+    border-top: 0px solid darkblue;
+    border-left: 0px solid darkblue;
+    border-right: 0px solid darkblue;
+    border-bottom: 0.125em solid darkblue;
+    margin: 2em auto 1em auto;
+    width: 40em;
+}
+
+.secondContainer { /* setting style for container , source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    padding: 1.255em;
+    background-color: aliceblue;
+    border-radius: .32em;
+    border: 0.125em solid darkblue;
+    margin: 1em auto 2em auto;
+    width: 40em;
+}
+
+.error {
+    color: red;
+    font-size: x-small;
+    padding-top: 1.2em;
+}
+
+.userMessage {
+    color: green;
+    font-size: 1em;
+    margin-left: 25%;
+}
+
+label { /* setting style for label, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    padding: .725em .725em .725em 0;
+    display: inline-block;
+    color: darkblue;
+    font-weight: 300 !important;
+}
+
+.column25 { /* setting style for column on left side containing label,  source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    margin-top: 0.37em;
+    width: 25%;
+    float: left;
+}
+
+.column75 { /* setting style for column on right side containing input element,source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    margin-top: 0.37em;
+    width: 75%;
+    float: left;
+}
+
+.forgotPassword {
+    cursor: pointer;
+    color: darkblue;
+}
+
+input[type=submit] { /* setting style for button on right side containing input element, source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    background-color: darkblue;
+    float: right;
+    border: aliceblue;
+    border-radius: .255em;
+    margin-top: .48em;
+    cursor: pointer;
+    width: 10.1em;
+    margin-right: 12em;
+    color: white;
+    padding: 0.75em 1.25em;
+    margin: 0 auto;
+}
+
+/* 2 columns on top of each other*/
+@media screen and (max-width: 560px) { /* setting responsiveness, source: https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    .column25, .column75, input[type=submit] {
+        margin-top: 0.375em;
+        margin-right: 0em;
+        width: 100%;
+    }
+
+    .containerRegistration {
+        width: 100%;
+    }
+
+    .secondContainer {
+        width: 100%;
+    }
+
+    .userMessage {
+        margin-left: 20%;
+    }
+}
+
+/* to clear floats after columns */
+.row:after { /* source:  https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive */
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.registerRow{
+    padding-bottom: 1em;
+}
+
+.loginBox {
+    padding: 1em;
+}
+
+.errorMessage {
+    text-align: center;
+    background: red;
+    padding-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.RegisterText {
+    color: darkblue;
+    float: right;
+    border-radius: .255em;
+    margin-top: .48em;
+    cursor: pointer;
+    margin-right: 12em;
+    padding: 0.75em 1.25em;
+    margin: 0 auto;
+}
+
+.RegistrationBox {
+    background: aliceblue;
+}
+
+.RegistrationMessage {
+    background: #6200EE;
+    padding: 10px;
+    color: white;
+    width: 97%;
+}
+
+.containerRegistration  row {
+    padding: 1.255em !important;
+}
+
+.containerREgistration{
+    padding: 15px;
+}

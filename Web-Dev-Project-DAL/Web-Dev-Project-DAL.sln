@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Web-Dev-Project-DAL", "..\..\..\..\..\..\Users\deep_\Source\Repos\Web-Dev-Project\Web-Dev-Project-DAL\Web-Dev-Project-DAL\Web-Dev-Project-DAL.phpproj", "{91ED31E3-7B17-4EA5-8CF3-E470DB6B8720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91ED31E3-7B17-4EA5-8CF3-E470DB6B8720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ED31E3-7B17-4EA5-8CF3-E470DB6B8720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4108BFC9-3F76-4E9A-8C97-2BAA2A079DBE}
+	EndGlobalSection
+EndGlobal
